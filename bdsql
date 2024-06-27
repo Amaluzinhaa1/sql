@@ -1,0 +1,3 @@
+SELECT COUNT(*) AS total_clientes
+FROM sua_tabela
+WHERE data_cadastro = CURDATE();
